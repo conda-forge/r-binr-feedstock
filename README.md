@@ -1,11 +1,11 @@
-About r-binr
-============
+About r-binr-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-binr-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/jabiru/binr
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-binr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Implementation of algorithms for cutting numerical values exhibiting a potentially highly skewed distribution into evenly distributed groups (bins). This functionality can be applied for binning discrete values, such as counts, as well as for discretization of continuous values, for example, during generation of features used in machine learning algorithms.
 
