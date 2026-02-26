@@ -1,4 +1,4 @@
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/binr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/binr/binr_{{ version }}.tar.gz
-  sha256: 9e9f2279f056bd3d3081553fc0fa1d9012a7bd169160b3556c43dc0fb99a3fc0
+  sha256: 67d08164f0da849dd9b5d7402e8d5b84273377716f2de31dd3882b06f210626f
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -34,8 +34,8 @@ test:
 about:
   home: http://github.com/jabiru/binr
   license: Apache-2.0
-  summary: Implementation of algorithms for cutting numerical values exhibiting a potentially highly skewed distribution into evenly distributed groups (bins). This functionality can be applied for binning discrete values, such as counts, as well as for discretization of continuous values, for example, during generation
-    of features used in machine learning algorithms.
+  summary: Implementation of algorithms for cutting numerical values exhibiting a potentially highly skewed distribution into evenly distributed groups (bins). This functionality can be applied for binning discrete values, such as counts, as well as for discretization of continuous values, for example, during 
+    generation of features used in machine learning algorithms.
   license_family: APACHE
   license_file: LICENSE
 
